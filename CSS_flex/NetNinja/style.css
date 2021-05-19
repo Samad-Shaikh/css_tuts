@@ -1,10 +1,70 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+}
+
+.box {
+    height: 100px;
+    /*min-width: 200px;*/
+    /*flex-basis: 500px;*/
+    /*flex-grow: 1;*/
+    /*OR*/
+    flex: 0 0 70px;
+}
+
+.one {
+    background: orangered;
+    /*flex-grow: 2;*/
+}
+
+.two {
+    background: blueviolet;
+    /*flex-grow: 3;*/
+}
+
+.three {
+    background: greenyellow;
+    /*flex-grow: 1;*/
+}
+
+#blocks {
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+#blocks div {
+    flex: 0 0 50px;
+    padding: 20px 0;
+    text-align: center;
+    background: #ccc;
+}
+
+.een{
+ order: 4;
+}
+
+.twee {
+    order: 2;
+}
+
+.drie {
+    order: 3;
+}
+
+.veer {
+    order: 0;
+}
+
 *{
-    font-family: verdana;
+    font-family: verdana, sans-serif;
     margin: 0;
 }
 
 body{
     background: #eee;
+    color: #333;
 }
 
 .wrapper{
