@@ -1,0 +1,19 @@
+@media (min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+}
+
+/* Fix fixed-navbar by adding ghost element on top*/
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+    border-radius: 9px;
+
+}
